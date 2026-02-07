@@ -13,3 +13,23 @@ footer { margin-top: auto; }
   transform: translateY(-5px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
+.mb-4 {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.col-md-12 {
+  text-align: center;
+}
+
+.row {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  margin-top: auto;
+}

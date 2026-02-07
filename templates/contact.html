@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="display-4">Contact Page</h1>
+        <p class="lead">Please send us a message if you have any questions or requests about this webpage. Enter your contact information below so we can get back to you.</p>
+    </div>
+</div>
+<form>
+    <div class="mb-4">
+        <label for="validationDefault01" class="form-label">First name</label>
+        <input type="text" class="form-control" id="validationDefault01" placeholder="John" required>
+    </div>
+    <div class="mb-4">
+        <label for="validationDefault02" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="validationDefault02" placeholder="Doe" required>
+    </div>
+    <div class="mb-4">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+    </div>
+    <div class="mb-4">
+        <label for="exampleFormControlInput1" class="form-label">Phone number</label>
+        <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="123-456-7890" required>
+    </div>
+    <div class="mb-4">
+        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="mb-4">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+</form>
+{% endblock %}
